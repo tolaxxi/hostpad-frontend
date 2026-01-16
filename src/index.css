@@ -9,8 +9,18 @@
   body {
     font-family: var(--font-sans);
   }
+  /* gradient class */
+  .primary-gradient {
+    @apply bg-linear-to-r from-gradient-primary-pink to-gradient-secondary-pink;
+  }
 }
 
 @theme {
+  /* header bottom border color */
   --color-header-border: oklch(0.922 0 0);
+  /* border color */
+  --color-border: oklch(0 0 0 / 10.2%);
+  /* gradient colors */
+  --color-gradient-primary-pink: oklch(0.6532 0.2393 357.42);
+  --color-gradient-secondary-pink: oklch(0.6453 0.2429 13.73);
 }

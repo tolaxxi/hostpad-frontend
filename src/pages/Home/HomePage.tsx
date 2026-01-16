@@ -1,4 +1,4 @@
-import Navbar from '../../shared/ui/Navbar/Navbar';
+import Navbar from '../../shared/ui/Navbar';
 
 const HomePage = () => {
   return (

@@ -1,4 +1,4 @@
 export const NAV_ITEMS = [
-  { label: 'Log In', variant: 'outline' },
-  { label: 'Get Started', variant: 'gradient' },
+  { id: 'log-in', label: 'Log In', variant: 'outline' },
+  { id: 'get-Started', label: 'Get Started', variant: 'gradient' },
 ] as const;
