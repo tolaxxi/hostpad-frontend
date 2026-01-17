@@ -6,11 +6,11 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 // base styles for all buttons
-const baseStyles = ' font-medium px-5 py-2 rounded-4xl text-lg';
+const baseStyles = ' font-medium px-5 py-2 rounded-xl md:rounded-4xl text-lg';
 
 const variantStyles: Record<ButtonVariant, string> = {
   gradient: 'primary-gradient text-white',
-  outline: 'border-2 border-border',
+  outline: 'border-2 border-border-gray',
 };
 
 const Button = ({ variant, className = '', ...props }: ButtonProps) => {
