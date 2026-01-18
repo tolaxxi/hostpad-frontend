@@ -14,7 +14,7 @@ const Navbar = () => {
   const contextValue = { isOpen, toggleIsOpen };
   return (
     <NavbarContext.Provider value={contextValue}>
-      <header className="w-full flex justify-between items-end md:items-center py-3 px-5  relative border-b border-header-border">
+      <header className="w-full flex justify-between items-end md:items-center py-3 px-5 fixed top-0 bg-white border-b border-header-border ">
         {/* hostpad logo  */}
         <NavBarLogo />
 

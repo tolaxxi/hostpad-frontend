@@ -23,4 +23,27 @@
   /* gradient colors */
   --color-gradient-primary-pink: oklch(0.6532 0.2393 357.42);
   --color-gradient-secondary-pink: oklch(0.6453 0.2429 13.73);
+
+  /* muted foreground */
+  --color-gray-foreground: oklch(0.5546 0.0261 285.52);
+}
+
+
+/* scroll bar */
+body::-webkit-scrollbar {
+  width: 5px; /* width of the vertical scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: inherit; /* color of the track */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #d6caca; /* color of the draggable handle */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the handle on hover */
 }

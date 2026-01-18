@@ -2,7 +2,7 @@ import HomePage from './pages/Home/HomePage';
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       <HomePage />
     </div>
   );

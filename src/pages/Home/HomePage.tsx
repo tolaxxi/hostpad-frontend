@@ -1,9 +1,11 @@
 import Navbar from '../../shared/ui/Navbar';
+import Hero from './Hero';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className=''>
       <Navbar />
+      <Hero />
     </div>
   );
 };
