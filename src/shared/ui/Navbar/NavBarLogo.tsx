@@ -1,4 +1,4 @@
-import logo from '../../../assets/branding/hostpad-logo.png';
+import logo from '@/assets/branding/hostpad-logo.png';
 
 const NavBarLogo = () => {
   return (

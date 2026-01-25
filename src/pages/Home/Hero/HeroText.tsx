@@ -4,7 +4,7 @@ const HeroText = () => {
       className="flex flex-col
     gap-5"
     >
-      <h1 className="text-7xl text-gradient-primary-pink font-medium">
+      <h1 className="gradient-text">
         Swipe Right on <br /> Your Dream <br /> Home
       </h1>
 

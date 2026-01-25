@@ -9,9 +9,14 @@
   body {
     font-family: var(--font-sans);
   }
-  /* gradient class */
+  /*  button gradient class */
   .primary-gradient {
-    @apply bg-linear-to-r from-gradient-primary-pink to-gradient-secondary-pink;
+    @apply bg-linear-to-r  from-gradient-primary-pink  from-10% to-gradient-orange to-100%;
+  }
+
+  /* text gradient class */
+  .gradient-text {
+    @apply text-7xl bg-linear-to-r from-gradient-primary-pink  from-10% to-gradient-orange to-100% inline-block bg-clip-text text-transparent font-medium;
   }
 }
 
@@ -20,14 +25,16 @@
   --color-header-border: oklch(0.922 0 0);
   /* border color */
   --color-border-gray: oklch(0 0 0 / 10.2%);
-  /* gradient colors */
+  /* button gradient colors */
   --color-gradient-primary-pink: oklch(0.6532 0.2393 357.42);
   --color-gradient-secondary-pink: oklch(0.6453 0.2429 13.73);
+  --color-gradient-orange: oklch(0.6766 0.2137 34.25);
 
   /* muted foreground */
   --color-gray-foreground: oklch(0.5546 0.0261 285.52);
-}
 
+  
+}
 
 /* scroll bar */
 body::-webkit-scrollbar {

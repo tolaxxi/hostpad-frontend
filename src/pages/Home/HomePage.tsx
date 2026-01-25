@@ -1,9 +1,9 @@
-import Navbar from '../../shared/ui/Navbar';
+import Navbar from '@/shared/ui/Navbar';
 import Hero from './Hero';
 
 const HomePage = () => {
   return (
-    <div className=''>
+    <div className="">
       <Navbar />
       <Hero />
     </div>
